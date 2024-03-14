@@ -29,4 +29,5 @@ Route::get('event/attend/{code}', [App\Http\Controllers\EventController::class, 
 
 
 Route::get('all/events', [App\Http\Controllers\EventController::class, 'showAllEvent'])->name('all.events');
+Route::get('export_data_pdf', [App\Http\Controllers\EventController::class, 'exportDataPdf'])->name('export_data_pdf');
 Route::get('check_attendance', [App\Http\Controllers\EventController::class, 'checkAttendance'])->name('check_attendance');

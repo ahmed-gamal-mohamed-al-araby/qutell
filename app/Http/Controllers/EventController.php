@@ -45,7 +45,7 @@ class EventController extends Controller
                 'event_id' => $event_id
             ]);
             $qrCode = QrCode::size(150)->generate(route('event.attend', ['code' => $user->code]));
-            Mail::to($user->email)->send(new WelcomeEvent($qrCode));
+//            Mail::to($user->email)->send(new WelcomeEvent($qrCode));
             toastr()->success('You have been successfully checked in!', 'Congrats');
             DB::commit();
             return redirect()->back();
@@ -58,6 +58,12 @@ class EventController extends Controller
     public function showAllEvent() {
          $all_events = RegisterEvent::with('event')->get();
         return view('admin.all_events',compact('all_events'));
+
+    }
+
+    public function exportDataPdf(Request $request) {
+         $event = RegisterEvent::where('id',$request->register_event_id)->first();
+        return view('events.export_pdf',compact('event'));
 
     }
 
