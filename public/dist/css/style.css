@@ -1,0 +1,161 @@
+@font-face {
+    /*font-family: 'Scheherazade';*/
+    font-family: auto;
+}
+
+/* Custom styles */
+body {
+    background-color: #FFFAEC !important;
+    font-family: 'Scheherazade', auto;
+    /*1C3F39*/
+    /*0A8270*/
+    /*FFBC00*/
+    /*1C3F39*/
+    /*142220*/
+    /*1E2D2B*/
+}
+
+.navbar-brand img {
+    width: 100px; /* Adjust according to your logo size */
+}
+
+.links_web a {
+    color: #000;
+}
+
+.links_login li a {
+    color: #000;
+}
+
+.navbar-nav.links_web li a:hover {
+    color: #0A8270 !important;
+}
+
+.links_web li {
+    padding: 0 15px;
+}
+
+.links_web {
+    margin: 0 auto;
+}
+
+.links_login {
+    float: right;
+}
+
+.navbar.navbar_custom {
+    background-color: #FFFAEC !important;
+    /*1C3F39*/
+    /*0A8270*/
+    /*FFBC00*/
+    /*1C3F39*/
+}
+
+.navbar_logo {
+    padding: 0;
+    margin-top: -10px;
+    margin-left: -33px;
+}
+
+.navbar-toggler {
+    background-color: #0A8270 !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #0A8270 !important;
+    font-weight: 900;
+}
+
+.btn_sm_custom {
+    width: 95px;
+    padding: 5px 15px;
+    font-weight: 900;
+    color: #FFF !important;
+    margin: 10px;
+}
+
+.btn_lg_custom {
+    padding: 10px 30px;
+    font-weight: 900;
+    width: 260px;
+}
+
+.btn_lg_custom_one , .btn_sm_custom_one{
+    background-color: #0A8270 !important;
+    color: #FFF !important;
+}
+
+.btn_lg_custom_two:hover  , .btn_lg_custom_one:hover , .btn_sm_custom_two:hover  , .btn_sm_custom_one:hover {
+    background-color: #1C3F39 !important;
+    color: #FFF !important;
+}
+
+.btn_lg_custom_two , .btn_sm_custom_two  {
+    background-color: #FFBC00;
+    color: #1C3F39 !important;
+    font-weight: bolder;
+}
+
+.footer {
+    margin-top: 130px;
+    color: #000;
+    padding: 20px 0;
+}
+
+.footer-logo {
+    margin-top: -17px;
+    margin-left: -33px;
+}
+
+.footer-logo img {
+    width: 100px; /* Adjust according to your logo size */
+}
+
+.footer-appstore img {
+    width: 150px; /* Adjust according to your app store badge size */
+    margin-right: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-social-icons {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social-icons a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-appstore img:nth-child(2) {
+    width: 110px;
+}
+
+.pra_footer {
+    padding-top: 14px;
+    width: 285px;
+}
+
+.pra_custom {
+    color: #0A8270;
+    font-weight: bold;
+}
